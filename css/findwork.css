@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+  font-family: serif;
+  color: #598311;
+  padding-top: 40px;
+  font-size: 50px;
+  font-weight: bold;
+}
+input.form-control {
+  margin: 20px 0;
+}
+
+button.btn {
+  margin: 10px 0 20px 0;
+}
+
+textarea{
+  height: 150px !important;
+}
+
+/* render jobs list */
+.title-element{
+  margin: 10px 0;
+  padding: 10px 10px 0px 10px;
+  font-weight: bold;
+}
+.location-element{
+  padding: 0px 10px;
+  margin: 1px 0;
+}
+.lessDescription-element{
+  padding: 5px 10px;
+  margin: 1px 2px;
+}
+.posted-element{
+  padding: 5px 10px;
+  margin: 0px 0 10px 0;
+}
+
+/* const titleEl = document.createElement('h5')
+const locationEl = document.createElement('h6')
+const lessDescription = document.createElement('p')
+const postedEl = document.createElement('em') */
+
+
+.leftSide {
+  background-color: #F0EFE4;
+  height: 635px;
+  overflow: scroll;
+  display: block;
+}
+
+
+.rightSide {
+  display: block;
+  background-color: none;
+  height: 635px;
+  overflow: scroll;
+}
+
+#btn-post-job {
+  padding: 10px 0;
+  width: 100%;
+  background-color: #fff;
+  color: #2291D1;
+  border: 2px solid #2291D1;
+  margin-bottom: 20px;
+
+
+}
+
+#btn-post-job:hover{
+  background-color: #2291D1;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+#btn-submit-job{
+  padding: 10px 0;
+  width: 100%;
+  background-color: #fff;
+  color: #DEAE2A;
+  border: 2px solid #DEAE2A;
+  margin-bottom: 50px;
+
+}
+
+#btn-submit-job:hover{
+  background-color: #DEAE2A;
+  color: #fff;
+  border-radius: 5px;
+
+}
+
+@media screen and (max-width: 350px){
+  .leftSide {
+    background-color: #F0EFE4;
+    height: 635px;
+    overflow: scroll;
+    display: block;
+  }
+
+  .rightSide {
+    display: block;
+    background-color: none;
+    height: 635px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .title-element{
+    margin: 5px 0;
+  }
+  .location-element{
+    margin: 0;
+    padding: 0 10px;
+
+  }
+  .lessDescription-element{
+    padding: 5px 10px;
+    margin: 1px 2px;
+  }
+  .posted-element{
+    padding: 5px 10px;
+    margin: 10px 0;
+  }
+
+  .rightSide h3{
+    margin-top: 30px;
+  }
+
+  .search-job-result{
+    height: 160px;
+  }
+
+}
